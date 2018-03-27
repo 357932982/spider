@@ -16,3 +16,13 @@ class TecentSpiderItem(scrapy.Item):
     num = scrapy.Field()
     pos = scrapy.Field()
     time = scrapy.Field()
+
+
+class CrawltencentSpiderItem(scrapy.Item):
+    # define the fields for your item here like:
+    name = scrapy.Field()
+    link = scrapy.Field()
+    type = scrapy.Field()
+    num = scrapy.Field()
+    pos = scrapy.Field()
+    time = scrapy.Field()
